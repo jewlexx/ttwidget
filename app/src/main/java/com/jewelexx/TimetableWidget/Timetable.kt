@@ -34,7 +34,7 @@ internal fun updateAppWidget(
     appWidgetManager: AppWidgetManager,
     appWidgetId: Int
 ) {
-    val widgetText = context.getString(R.string.appwidget_text)
+    val widgetText = "nah g"
     // Construct the RemoteViews object
     val views = RemoteViews(context.packageName, R.layout.timetable)
     views.setTextViewText(R.id.appwidget_text, widgetText)
